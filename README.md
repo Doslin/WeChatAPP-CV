@@ -4,11 +4,11 @@
 
 A fast, simple & powerful CV-WeChat-WeAPP, powered by [doude](https://qiuzhilin/).
 
-<img src="http://img.dianfeng.xyz/WechatIMG96.jpeg" style="zoom:50%" />
+<img src="http://img.dianfeng.xyz/WechatIMG96.jpeg" width="50%" height="50%" />
 
 
 
-<img src="http://img.dianfeng.xyz/gh_37742456fdc8_1280.jpg" style="zoom:25%" />
+<img src="http://img.dianfeng.xyz/gh_37742456fdc8_1280.jpg" width="25%" height="25%"  />
 
 ## Features
 
