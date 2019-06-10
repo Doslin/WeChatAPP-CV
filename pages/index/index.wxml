@@ -1,0 +1,112 @@
+<view class="page-container">
+  <view class='info-top'>
+    <image mode='aspectFit' src='http://img.dianfeng.xyz/avatar.jpeg'></image>
+    <text class='name'>姓名</text>
+   
+
+  </view>
+  <!-- 个人信息-->
+  <view class='card-view' style='margin-top:0rpx;'>
+    <view class='item-title'>
+      <image mode="scaleToFill" style="width:50rpx;height:51rpx;" src='../../images/icon_addressbook.png'></image>
+      <text class="item-info-title">个人信息</text>
+    </view>
+    <view class='margin-top' style='padding-left:20rpx;'>
+    <view class='user-info-item'>Name ：邱志林</view>
+      <view class='user-info-item'>School：内蒙古民族大学（19届）</view>
+      <view class='user-info-item'>Email ：zhizhiqiu@163.com</view>
+     <view class='user-info-item'>Phone：15679977727</view>
+      <view bindtap="toast" class="user-info-item">
+      Blog  ：qiuzhilin.cn（个人技术博客）</view>
+      <view class='user-info-item'>Title  ：追崇实践 + 理论得真知</view>
+    </view>
+  </view>
+
+  <view class='card-view' style='margin-top:40rpx;'>
+    <view class='item-title'>
+       <image mode="scaleToFill" style="width:50rpx;height:51rpx;" src='../../images/icon_discovery.png'></image>
+      <text class="item-info-title">求职意向</text>
+    </view>
+    <view class='item-info-row margin-top'>
+      <view class='item-info-container'>
+        <text>意向岗位：</text>
+        <text>Java开发</text>
+      </view>
+      <view class='item-info-container'>
+        <text>职业类型：</text>
+        <text>后端程序员</text>
+      </view>
+    </view>
+
+    <view class='item-info-row margin-top'>
+      <view class='item-info-container'>
+        <text>意向城市：</text>
+        <text>北京</text>
+      </view>
+      <view class='item-info-container'>
+        <text>入职时间：</text>
+        <text>随时</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='card-view' style='margin-top:40rpx;'>
+    <view class='item-title'>
+      <image mode="scaleToFill" style="width:50rpx;height:51rpx;" src='../../images/icon_cloud_history.png'></image>
+      <text class="item-info-title">工作经验</text>
+    </view>
+    <view class='item-info-row' >
+      <view class='cell-30p'>
+        2018.7至2019.5
+      </view>
+      <view class='cell-30p' style='overflow: hidden;white-space: nowrap;text-overflow: ellipsis;'>
+        北京中软国际技术股份有限公司
+      </view>
+      <view class='cell-30p' >
+        研发岗位
+      </view>
+      <view class='item-info-rows' white-space:pre-wrap>
+      <view class='cell-30p' style='flex-grow:1;'>
+        参与项目的维护        
+      </view>
+      <view>编写项目中的功能模块</view>
+      
+      <view>和团队一起进行技术选型</view>
+      <view>参与日常代码的版本控制</view>
+      
+      
+      
+    </view>
+    </view>
+  </view>
+  <!-- 项目经验 -->
+  <view class='card-view' style='margin-top:40rpx;'>
+    <view class='item-title'>
+       <image mode="scaleToFill" style="width:50rpx;height:51rpx;" src='../../images/userinfo.png'></image>
+      <text class="item-info-title">掌握技能</text>
+    </view>
+
+    <view class='item-info-rows' white-space:pre-wrap>
+      <view class='flex: 0 0 40%' word-break: break-all>
+        1. 掌握基本数据结构和算法，数据库原理，linux操作系统，计算机网络基础
+      </view>
+      <view>
+      2. 熟悉Java面向接口编程，深入理解过JDK中部分常用类的源码
+      </view>
+      <view>
+      3. 熟悉设计模式，理解Spring技术原理，掌握Spring MVC、Mybatis
+      </view>
+      <view>
+      4. 熟悉Java虚拟机原理，会简单的JVM调优。
+      </view>
+      <view>
+      5. 熟悉MySQL语句执行过程，了解Redis。
+      </view>
+      <view>
+      6. 熟练使用Tomcat、IDEA、Eclipse、Navicat for MySQL、SecureCRT、Power Designer
+      </view>
+      <view style='flex: 0 0 50%;'></view>
+      <view class='flex-grow:1'></view>
+    </view>
+  </view>
+</view>
